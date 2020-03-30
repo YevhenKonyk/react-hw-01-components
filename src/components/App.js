@@ -5,7 +5,7 @@ import user from './Profile/user.json';
 
 const App = () => (
   <>
-    <Section>
+    <Section title="User profile">
       <Profile {...user} />
     </Section>
   </>
