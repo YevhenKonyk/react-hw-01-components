@@ -1,8 +1,12 @@
 import React from 'react';
+import Section from './Section/Section';
+import Profile from './Profile/Profile';
 
 const App = () => (
   <>
-    <h2>React app</h2>
+    <Section>
+      <Profile />
+    </Section>
   </>
 );
 
