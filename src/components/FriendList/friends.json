@@ -1,0 +1,32 @@
+[
+    {
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/shojberg/128.jpg",
+        "name": "Misha",
+        "isOnline": true,
+        "id": 1812
+    },
+    {
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/j04ntoh/128.jpg",
+        "name": "Masha",
+        "isOnline": false,
+        "id": 1137
+    },
+    {
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/r_oy/128.jpg",
+        "name": "Igor",
+        "isOnline": true,
+        "id": 1213
+    },
+    {
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/mugukamil/128.jpg",
+        "name": "Kolya",
+        "isOnline": true,
+        "id": 1714
+    },
+    {
+        "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/sweetdelisa/128.jpg",
+        "name": "Anna",
+        "isOnline": false,
+        "id": 1284
+    }
+]

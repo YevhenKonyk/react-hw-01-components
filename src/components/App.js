@@ -4,10 +4,17 @@ import Profile from './Profile/Profile';
 import user from './Profile/user.json';
 import Statistics from './Statistics/Statistics';
 import statData from './Statistics/stats-data.json';
+import FriendList from './FriendList/FriendList';
+import friends from './FriendList/friends.json';
 
 const App = () => (
   <>
+    <Section title="Friends list">
+      <FriendList friends={friends} />
+    </Section>
+
     <Statistics title="Upload statistics" stats={statData} />
+
     <Section title="User profile">
       {/* <Profile
         avatar={user.avatar}
