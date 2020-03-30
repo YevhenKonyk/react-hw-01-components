@@ -1,16 +1,12 @@
 import React from 'react';
 
-const Profile = () => (
+const Profile = ({ name, tag, location, avatar, stats }) => (
   <div className="profile">
     <div className="description">
-      <img
-        src="https://i.pinimg.com/originals/a0/40/66/a04066a2d1fcf25df39c599e093995c8.jpg"
-        alt="user avatar"
-        className="avatar"
-      />
-      <p className="name">Petra Marica</p>
-      <p className="tag">@pmarica</p>
-      <p className="location">Salvador, Brasil</p>
+      <img src={avatar} alt="user avatar" className="avatar" />
+      <p className="name">{name}</p>
+      <p className="tag">@{tag}</p>
+      <p className="location">{location}</p>
     </div>
 
     <ul className="stats">
