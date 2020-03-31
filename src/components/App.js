@@ -15,7 +15,7 @@ const App = () => (
       <TransactionHistory transactions={transactions} />
     </Section>
 
-    <Section title="Friends list">
+    <Section title="Friend list">
       <FriendList friends={friends} />
     </Section>
 
