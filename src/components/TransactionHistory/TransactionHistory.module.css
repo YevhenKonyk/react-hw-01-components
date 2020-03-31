@@ -1,0 +1,32 @@
+.transactionHistory {
+    width: 960px;
+    margin: 0 auto;
+    border: 1px solid rgb(198, 198, 198);
+}
+
+.header {
+    border-collapse: collapse;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 188, 212);
+    text-transform: uppercase;
+}
+
+.data {
+    font-size: 15px;
+    color: rgb(92, 105, 117);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.row:nth-child(odd) {
+    background-color: rgb(236, 242, 243);
+}
+
+.row:hover {
+    background-color: rgba(0, 188, 212, 0.14);
+    cursor: default;
+}
